@@ -5,3 +5,6 @@
 body {
   background-color: #9cdefd;
 }
+.custom-width {
+  width: 16rem;
+}
