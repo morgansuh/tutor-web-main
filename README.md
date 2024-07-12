@@ -1,4 +1,5 @@
 # Online Tutor Website
+self project for online tutoring business utilizing react and tailwind
 
 # Getting Started with Create React App
 
