@@ -4,7 +4,7 @@ import Cards from './components/Cards';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
-import Newsletter from './components/Newsletter';
+import Courses from './components/Courses';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <Hero />
       <Analytics />
-      <Newsletter />
+      <Courses />
       <Cards />
       <Footer />
     </div>

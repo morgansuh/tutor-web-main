@@ -27,7 +27,7 @@ const Hero = () => {
           Connecting Ivy League Tutors with K-12 Students.
         </p>
         <button className='bg-[#000000] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white'>
-          Get Started
+          Book a Consultation
         </button>
       </div>
     </div>

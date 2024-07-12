@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Newsletter = () => {
+const Courses = () => {
   return (
     <div className='w-full py-16 text-white px-4'>
       <div className='max-w-[1240px] mx-auto grid lg:grid-cols-3'>
@@ -21,4 +21,4 @@ const Newsletter = () => {
   );
 };
 
-export default Newsletter;
+export default Courses;

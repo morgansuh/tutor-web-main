@@ -10,12 +10,14 @@ const Analytics = () => {
           <p className='text-[#88cbea] font-bold '>Flexible Schedules, Expert Tutoring</p>
           <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Meet with our expert tutors on your schedule!</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-            molestiae delectus culpa hic assumenda, voluptate reprehenderit
-            dolore autem cum ullam sed odit perspiciatis. Doloribus quos velit,
-            eveniet ex deserunt fuga?
+          No matter where you live we can find a specialized online tutor for you through our 1:1 tutoring program. 
+
+          Location is no longer a barrier as you can find help whether you are an elementary, secondary, or college student. 
+
+          Students receive a tailored program and support, while also achieving the same benefit of working at their own pace with a 
+          tutor that has tailored the lesson to their individual needs and learning style.
           </p>
-          <button className='bg-black text-[#ffffff] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'>Learn More</button>
+          <button className='bg-black text-[#ffffff] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'>Book a Constulation</button>
         </div>
       </div>
     </div>

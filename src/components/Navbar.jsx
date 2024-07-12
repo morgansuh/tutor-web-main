@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className='bg-white w-full h-24'>
       <div className='flex justify-between items-center h-full max-w-[1240px] mx-auto px-4 text-black'>
         {/* Apply a class to move the logo more to the left */}
-        <img className='custom-width mx-auto md:ml-0' src={Logo} alt="/" />
+        <img className='custom-width mx-auto md:ml-0 pt-3' src={Logo} alt="/" />
         <ul className='hidden md:flex'>
           <li className='p-4'>Home</li>
           <li className='p-4'>Pricing</li>
