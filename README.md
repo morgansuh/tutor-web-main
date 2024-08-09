@@ -1,5 +1,6 @@
 # Online Tutor Website
-self project for online tutoring business utilizing react and tailwind
+Self project for online tutoring business utilizing React and TailwindCSS. 
+The website is responsive to both desktop and mobile. 
 
 # Getting Started with Create React App
 
