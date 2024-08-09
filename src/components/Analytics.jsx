@@ -7,10 +7,10 @@ const Analytics = () => {
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
         <img className="w-[500px] mx-auto my-4" src={Laptop} alt="/" />
         <div className="flex flex-col justify-center">
-          <p className="text-[#88cbea] font-bold ">
+          <p className="text-[#251a51] font-bold ">
             Flexible Schedules, Expert Tutoring
           </p>
-          <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
+          <h1 className="text-[#251a51] md:text-4xl sm:text-3xl text-2xl font-bold py-2">
             Meet with our expert tutors on your schedule!
           </h1>
           <p>
@@ -22,7 +22,7 @@ const Analytics = () => {
             their own pace with a tutor that has tailored the lesson to their
             individual needs and learning style.
           </p>
-          <button className="bg-black text-[#ffffff] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3">
+          <button className="bg-[#1f2124] text-[#ffffff] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3">
             Book a Constulation
           </button>
         </div>
