@@ -2,10 +2,6 @@
 Self project for online tutoring business utilizing React and TailwindCSS. 
 The website is responsive to both desktop and mobile. 
 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ### `yarn start`
 
 Runs the app in the development mode.\
