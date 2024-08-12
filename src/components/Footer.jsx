@@ -1,67 +1,45 @@
 import React from "react";
-import {
-  FaDribbbleSquare,
-  FaFacebookSquare,
-  FaGithubSquare,
-  FaInstagram,
-  FaTwitterSquare,
-} from "react-icons/fa";
-
 const Footer = () => {
   return (
     <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-500">
-      <div>
-        <h1 className="w-full text-3xl font-bold text-[#000000]">
-          PRIME TUTORING
-        </h1>
-        <p className="py-4">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit
-          ullam iste repellat consequatur libero reiciendis, blanditiis
-          accusantium.
+      <div className="lg:col-span-3 flex flex-col items-center">
+        <h1 className="text-3xl font-bold text-[#000000]">How It Works</h1>
+        <p className="py-4 text-center">
+          Fill out a form and also work through it with one of our advisors if
+          you have any questions. We’re made to fit your schedule— You can build
+          your plan for 1:1 classes at a frequency and time that work best for
+          you.
         </p>
-        <div className="flex justify-between md:w-[75%] my-6">
-          <FaFacebookSquare size={30} />
-          <FaInstagram size={30} />
-          <FaTwitterSquare size={30} />
-          <FaGithubSquare size={30} />
-          <FaDribbbleSquare size={30} />
-        </div>
       </div>
-      <div className="lg:col-span-2 flex justify-between mt-6">
+      <div className="lg:col-span-3 flex justify-between mt-6 space-x-8">
         <div>
-          <h6 className="font-medium text-gray-700">How It Works</h6>
-          <ul>
-            <li className="py-2 text-sm">Tutoring</li>
-            <li className="py-2 text-sm">Pricing</li>
-            <li className="py-2 text-sm">Instructors</li>
-            <li className="py-2 text-sm">Reviews</li>
-          </ul>
+          <h6 className="font-medium text-gray-700">1. Sign Up</h6>
+          <p>
+            Pick the course that aligns with your family’s learning goals in the
+            sign up form. At the time of signup, we’ll ask you for more details
+            about your student. You can make a course selection or compare
+            courses with an advisor during a free consultation. Feel free to go
+            through the form with an advisor.
+          </p>
         </div>
         <div>
-          <h6 className="font-medium text-gray-700">Subjects</h6>
-          <ul>
-            <li className="py-2 text-sm">Math</li>
-            <li className="py-2 text-sm">Reading</li>
-            <li className="py-2 text-sm">Writing</li>
-            <li className="py-2 text-sm">Programming</li>
-            <li className="py-2 text-sm">Help with Schoolwork</li>
-          </ul>
+          <h6 className="font-medium text-gray-700">2. Matching</h6>
+          <p>
+            We’ll hand-match your child with an instructor and schedule your
+            placement class. In the placement class, our instructors get to know
+            your child, go over all available tools and resources, and assess
+            their level in the specific subject. They will then confirm the
+            course selection and any additional needs.
+          </p>
         </div>
         <div>
-          <h6 className="font-medium text-gray-700">Resources</h6>
-          <ul>
-            <li className="py-2 text-sm">FAQ</li>
-            <li className="py-2 text-sm">Our Instructors</li>
-            <li className="py-2 text-sm">Contact</li>
-          </ul>
-        </div>
-        <div>
-          <h6 className="font-medium text-gray-700">About</h6>
-          <ul>
-            <li className="py-2 text-sm">Our Story</li>
-            <li className="py-2 text-sm">Policy</li>
-            <li className="py-2 text-sm">Terms</li>
-          </ul>
+          <h6 className="font-medium text-gray-700">3. Scheduling</h6>
+          <p>
+            Submit your availability and child’s details. Your child will be
+            matched with their ongoing instructor to continue with weekly
+            50-minute on-on-one classes. You’ll have an opportunity at sign-up
+            to make any instructor requests.
+          </p>
         </div>
       </div>
     </div>

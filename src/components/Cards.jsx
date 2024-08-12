@@ -6,7 +6,7 @@ const Cards = () => {
       <h1 className="text-[#251a51] text-4xl font-bold text-center pb-10">
         Pricing & Session Details
       </h1>
-      <p className="text-[#251a51] text-center pb-20 px-10">
+      <p className="text-[#251a51] text-center pb-20 px-20">
         We offer both a Tutoring path and Curriculum path, both working 1:1 with
         the tutor. Depending on your goals we can schedule as many sessions as
         needed based on you and your child’s availability plus easy rescheduling
