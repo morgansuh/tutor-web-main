@@ -1,5 +1,5 @@
 import React from "react";
-import Typed from "react-typed";
+import { ReactTyped } from "react-typed";
 
 const Hero = () => {
   return (
@@ -15,7 +15,7 @@ const Hero = () => {
           <p className="text-[#1c2448] md:text-5xl sm:text-4xl text-xl font-bold py-4">
             Expert Tutoring in
           </p>
-          <Typed
+          <ReactTyped
             className="text-[#1c2448] md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2"
             strings={["Math", "Reading", "Writing", "Programming"]}
             typeSpeed={120}

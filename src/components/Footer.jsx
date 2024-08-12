@@ -23,7 +23,7 @@ const Footer = () => {
           </p>
         </div>
         <div>
-          <h6 className="font-medium text-gray-700">2. Matching</h6>
+          <h6 className="font-medium text-gray-700">2. Match</h6>
           <p>
             We’ll hand-match your child with an instructor and schedule your
             placement class. In the placement class, our instructors get to know
@@ -33,7 +33,7 @@ const Footer = () => {
           </p>
         </div>
         <div>
-          <h6 className="font-medium text-gray-700">3. Scheduling</h6>
+          <h6 className="font-medium text-gray-700">3. Schedule</h6>
           <p>
             Submit your availability and child’s details. Your child will be
             matched with their ongoing instructor to continue with weekly
