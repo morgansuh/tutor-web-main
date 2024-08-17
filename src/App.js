@@ -20,11 +20,11 @@ function App() {
             <>
               <Hero />
               <Analytics />
-              <div id="pricing-section">
-                <Cards />
-              </div>
               <div id="courses-section">
                 <Courses />
+              </div>
+              <div id="pricing-section">
+                <Cards />
               </div>
               <Footer />
             </>

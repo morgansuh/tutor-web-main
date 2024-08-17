@@ -11,15 +11,21 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-white w-full h-24">
+    <div className="bg-white w-full h-24 sticky top-0 z-50">
       <div className="flex justify-between items-center h-full max-w-[1240px] mx-auto px-4 text-black">
-        <img className="custom-width mx-auto md:ml-0 pt-3" src={Logo} alt="/" />
+        <Link to="/">
+          <img
+            className="custom-width mx-auto md:ml-0 pt-3"
+            src={Logo}
+            alt="Home"
+          />
+        </Link>
         <ul className="hidden md:flex">
           <li className="p-4">
-            <a href="#pricing-section">Pricing</a>
+            <Link to="/">Home</Link>
           </li>
           <li className="p-4">
-            <Link to="/">Home</Link>
+            <a href="#pricing-section">Pricing</a>
           </li>
           <li className="p-4">
             <a href="#courses-section">Courses</a>
