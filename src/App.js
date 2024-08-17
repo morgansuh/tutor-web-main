@@ -6,17 +6,38 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Courses from "./components/Courses";
+import Students from "./components/Students";
+import Instructors from "./components/Instructors";
 
 function App() {
   return (
-    <div>
+    <Router>
       <Navbar />
-      <Hero />
-      <Analytics />
-      <Courses />
-      <Cards />
-      <Footer />
-    </div>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Hero />
+              <Analytics />
+              <div id="pricing-section">
+                <Cards />
+              </div>
+              <div id="courses-section">
+                <Courses />
+              </div>
+              <Footer />
+            </>
+          }
+        />
+
+        {/* New Page for Students */}
+        <Route path="/Students" element={<Students />} />
+
+        {/* New Page for Teachers */}
+        <Route path="/Instructors" element={<Instructors />} />
+      </Routes>
+    </Router>
   );
 }
 

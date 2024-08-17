@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import Logo from "../assets/logo.png";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
@@ -12,14 +13,23 @@ const Navbar = () => {
   return (
     <div className="bg-white w-full h-24">
       <div className="flex justify-between items-center h-full max-w-[1240px] mx-auto px-4 text-black">
-        {/* Apply a class to move the logo more to the left */}
         <img className="custom-width mx-auto md:ml-0 pt-3" src={Logo} alt="/" />
         <ul className="hidden md:flex">
-          <li className="p-4">Home</li>
-          <li className="p-4">Pricing</li>
-          <li className="p-4">Resources</li>
-          <li className="p-4">Students</li>
-          <li className="p-4">Teachers</li>
+          <li className="p-4">
+            <a href="#pricing-section">Pricing</a>
+          </li>
+          <li className="p-4">
+            <Link to="/">Home</Link>
+          </li>
+          <li className="p-4">
+            <a href="#courses-section">Courses</a>
+          </li>
+          <li className="p-4">
+            <Link to="/Students">Student</Link>
+          </li>
+          <li className="p-4">
+            <Link to="/Instructors">Instructors</Link>
+          </li>
         </ul>
         <div onClick={handleNav} className="block md:hidden">
           {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
@@ -32,14 +42,21 @@ const Navbar = () => {
             : "ease-in-out duration-500 fixed left-[-100%]"
         }
       >
-        <h1 className="w-full text-3xl font-bold text-white m-4">
-          PRIME TUTORING
-        </h1>
-        <li className="p-4 border-b border-gray-600 text-white">Home</li>
-        <li className="p-4 border-b border-gray-600 text-white">Pricing</li>
-        <li className="p-4 border-b border-gray-600 text-white">Resources</li>
-        <li className="p-4 border-b border-gray-600 text-white">Students</li>
-        <li className="p-4 text-white">Teachers</li>
+        <li className="p-4 border-b border-gray-600 text-white">
+          <a href="#pricing-section" onClick={handleNav}>
+            Pricing
+          </a>
+        </li>
+        <li className="p-4 border-b border-gray-600 text-white">
+          <Link to="/" onClick={handleNav}>
+            Home
+          </Link>
+        </li>
+        <li className="p-4 text-white">
+          <Link to="/courses" onClick={handleNav}>
+            Courses
+          </Link>
+        </li>
       </ul>
     </div>
   );
